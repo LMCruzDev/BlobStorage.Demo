@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorage.Demo.Api", "BlobStorage.Demo.Api\BlobStorage.Demo.Api.csproj", "{3636D699-80FD-40C6-A631-0A50C8828432}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorage.Demo.Application", "BlobStorage.Demo.Application\BlobStorage.Demo.Application.csproj", "{3BDC52A3-9F26-44C8-A09A-362B9568BC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorage.Demo.Model", "BlobStorage.Demo.Model\BlobStorage.Demo.Model.csproj", "{51980291-0AAC-4765-A526-A6F03310A91A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3636D699-80FD-40C6-A631-0A50C8828432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3636D699-80FD-40C6-A631-0A50C8828432}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3636D699-80FD-40C6-A631-0A50C8828432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDC52A3-9F26-44C8-A09A-362B9568BC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDC52A3-9F26-44C8-A09A-362B9568BC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDC52A3-9F26-44C8-A09A-362B9568BC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDC52A3-9F26-44C8-A09A-362B9568BC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51980291-0AAC-4765-A526-A6F03310A91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51980291-0AAC-4765-A526-A6F03310A91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51980291-0AAC-4765-A526-A6F03310A91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51980291-0AAC-4765-A526-A6F03310A91A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
